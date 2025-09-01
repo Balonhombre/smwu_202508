@@ -41,7 +41,7 @@ class _NewsScreenState extends State<NewsScreen> {
         "q": "google",
         "from": "2025-08-01",
         "sortBy": "publishedAt",
-        "apiKey": "06b4c38a1143474eba38e6e86185180d",
+        "apiKey": "",
         "pageSize": "20",
         "page": page.toString(),
       },
