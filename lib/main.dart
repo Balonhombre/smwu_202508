@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 import 'package:smwu_202508/screen/button_screen.dart';
+import 'package:smwu_202508/screen/getx/my_controller.dart';
 
 void main() {
+  Get.put(MyController(), permanent: true);
   runApp(const MyApp());
 }
 
